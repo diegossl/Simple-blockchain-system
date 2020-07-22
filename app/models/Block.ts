@@ -1,5 +1,4 @@
 import sha256 from 'crypto-js/sha256'
-import md5 from 'crypto-js/md5'
 import { WordArray } from 'crypto-js'
 
 type PreviousHash = string | undefined

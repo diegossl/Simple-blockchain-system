@@ -1,12 +1,12 @@
 import IBlock from '../interfaces/IBlock'
 import Block from './Block'
 
-export default class Blockchain implements IBlock {
+class Blockchain implements IBlock {
   private index: number
-  private blocks: Block[] = []
+  private blocks: Block[]
 
   public constructor () {
-    this.blocks.push(new Block())
+    this.blocks = []
     this.index = 1
   }
 
@@ -25,7 +25,9 @@ export default class Blockchain implements IBlock {
     this.blocks.push(block)
   }
 
-  isValid (): boolean {
+  checkValidity (): boolean {
     throw new Error('Method not implemented.')
   }
 }
+
+export default new Blockchain()

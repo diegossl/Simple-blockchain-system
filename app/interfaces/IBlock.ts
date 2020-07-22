@@ -5,5 +5,5 @@ export default interface IBlock {
 
   addBlock(data: string): void
 
-  isValid(): boolean
+  checkValidity(): boolean
 }

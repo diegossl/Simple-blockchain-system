@@ -1,4 +1,4 @@
-import Block from '../models/Block'
+import Block from './Block'
 
 export default interface IBlock {
   getLastBlock(): Block

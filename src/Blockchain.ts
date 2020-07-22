@@ -1,4 +1,4 @@
-import IBlock from '../interfaces/IBlock'
+import IBlock from './IBlock'
 import Block from './Block'
 
 class Blockchain implements IBlock {

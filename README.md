@@ -1,31 +1,31 @@
 # Blockchain
 
-A tecnologia Blockchain nada mais é do que um livro de razão pública (ou livro contábil) que faz o registro de uma transação de moeda virtual (a mais popular delas é o Bitcoin), de forma que esse registro seja confiável e imutável.
+Blockchain technology is nothing more than a public ledger (or ledger) that records a virtual currency transaction (the most popular of which is Bitcoin), so that this record is reliable and immutable.
 
-Ou seja, a blockchain registra informações como: a quantia de bitcoins (ou outras moedas) transacionadas, quem enviou, quem recebeu, quando essa transação foi feita e em qual lugar do livro ela está registrada. Isso mostra que a transparência é um dos principais atributos da blockchain.
+That is, the blockchain records information such as: the amount of bitcoin (or other currencies) transacted, who sent it, who received it, when this transaction was made and where in the book it is registered. This shows that transparency is one of the main attributes of the blockchain.
 
 ## Setup
 
-Para executar o projeto, será necessário instalar as dependências digitando o seguinte comando no terminal:
+To execute the project, it will be necessary to install the dependencies by typing the following command in the terminal:
 
 ```bash
 yarn install
 ```
 
-Por fim, para executar o projeto é preciso transpilar o código Typescript para JavaScript. Para isso digite o seguinte comando no terminal:
+Finally, to execute the project it is necessary to transpile the Typescript code to JavaScript. To do this, type the following command in the terminal:
 
 ```bash
 yarn build
 ```
 
-### Uso
+### Use
 
-Para executar o projeto já transpilado para JavaScript digite o seguinte comando no terminal:
+To execute the project already transpiled into JavaScript, type the following command in the terminal:
 
 ```bash
 yarn start
 ```
 
-## Licença
+## License
 
 MIT
